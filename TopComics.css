@@ -1,0 +1,48 @@
+
+.top-comics {
+    margin: 20px 0;
+    background-color: rgba(0,0,0,0.6);
+    padding:20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .top-comics h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .comics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .comic-card {
+  
+    background: rgba(0,0,0,0.6);
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .comic-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .comic-card h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .comic-card p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  h2{
+    color:yellow;
+  }
