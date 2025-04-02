@@ -1,0 +1,139 @@
+
+body {
+  font-family: cursive;
+  text-align: center;
+  background-color: black;
+  color: white;
+  /*background: url("/comic/background.jpg") no-repeat center center fixed;*/
+  background-color: black;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  color: yellow;
+  text-shadow: 3px 3px 5px black; 
+  padding: 10px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+  padding: 12px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+nav a {
+  padding: 12px 18px;
+  background: lightblue;
+  color: black;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+  background: #ffd700; 
+  transform: scale(1.1);
+}
+
+
+button {
+  background: lightblue;
+  color:black;
+  font-weight: bold;
+  padding: 12px 18px;
+  text-align: center;
+  display: inline-block;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-family: cursive;
+  nav a, button {
+  background: linear-gradient(to bottom, #c1dbee, #a3c4d4);
+  padding: 12px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+}
+
+button:hover {
+  background: #ffd700;
+  transform: scale(1.1);
+}
+
+
+.library-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+
+.comic-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.comic-card:hover {
+  transform: scale(1.05);
+}
+
+.comic-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.comic-card h3 {
+  margin-top: 10px;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;  
+}
+input {
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color:yellow;
+  text-shadow: 3px 3px 5px black;
+}
+
