@@ -1,0 +1,21 @@
+.reader {
+    text-align: center;
+  }
+  
+  .comic-page {
+    width: 80%;
+    max-height: 80vh;
+    object-fit: contain;
+  }
+  
+  .navigation {
+    margin-top: 20px;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  

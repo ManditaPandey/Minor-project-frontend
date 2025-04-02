@@ -1,0 +1,98 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url("/comic/background.jpg") no-repeat center center fixed;
+   background-color: black;
+    background-size: cover;
+    color: white;
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    background: black;
+    flex-wrap: wrap;
+  }
+  
+  .navbar a {
+    padding: 10px 15px;
+    background: lightblue;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  
+  .dark-mode-toggle {
+    padding: 10px 15px;
+    background: yellow;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    width: auto;  
+    display: inline-block;
+  }
+  
+
+  .login-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    margin-top: -40px;
+  }
+  
+  label {
+    margin: 10px 0 5px;
+    color: yellowgreen;
+  }
+  
+  input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    background: lightblue;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-box {
+    background: rgba(0, 0, 0, 0.7); 
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }  
+  .login-box label {
+    color: yellow; 
+  }
+
+  form label{
+    display: block;
+    margin-bottom: 8px;
+    color:aqua;
+    font-size: 30px;
+  }
+  

@@ -1,0 +1,63 @@
+.library-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .comic-card {
+      width: 210px;  
+      height: 300px; 
+      display:cover;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      padding: 10px;
+      text-align: center;
+    }
+    
+  
+  .comic-card img {
+    width: 250px;
+    height:300px;
+    border-radius: 10px;
+  }
+  .library {
+    background-color: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));
+    padding: 20px;
+    color: white; 
+    min-height: 100vh; 
+  }
+  
+  .comic-heading, .uploaded-comics-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.811); 
+    color: yellow;
+    font-size: 24px;
+    padding: 15px 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 8px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .delete-button:hover {
+    background-color: darkred;
+    transform: scale(1.1);
+  }
+  
