@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "1743437956033.jpg",
+    "title": "book",
+    "description": "book",
+    "coverUrl": "http://localhost:5000/uploads/1743437956033.jpg"
+  },
+  {
+    "_id": "1743437960627.jpg",
+    "title": "book",
+    "description": "book",
+    "coverUrl": "http://localhost:5000/uploads/1743437960627.jpg"
+  },
+  {
+    "_id": "1743438597176.jpg",
+    "title": "book",
+    "description": "book",
+    "coverUrl": "http://localhost:5000/uploads/1743438597176.jpg"
+  },
+  {
+    "_id": "1743439119088.jpg",
+    "title": "book",
+    "description": "book",
+    "coverUrl": "http://localhost:5000/uploads/1743439119088.jpg"
+  },
+  {
+    "_id": "1743444561275.jpg",
+    "title": "Avengers",
+    "description": "Avengers comic for superhero fans",
+    "coverUrl": "http://localhost:5000/uploads/1743444561275.jpg"
+  }
+]
